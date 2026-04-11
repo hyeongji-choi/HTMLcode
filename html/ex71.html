@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<mata charset="uft-8">
+    <title>이미지 테두리 만들기</title>
+    <style>
+        p{
+            background:yellow;
+            width:200px;
+            height:60px;
+            padding:10px;
+            border: 20px solid lightgray;
+        }
+        #round1{border-image: url("boder.pag")30 round;}
+        #repeat{border-image: url("boder.pag")30 stretch;}
+    </style>
+    </head>
+    <body>
+        <n3>이미지 테두리 만들기</n3>
+        <hr>
+        다음은 원본 이미지입니다.<br>
+        <img src="그림2.png" alt="원본">
+        <hr>
+        <p>20x20 크기의 회색 테두리를 가진 P태그</p>
+        <p id="round">round 스타일 이미지 테두리</p>
+        <p id="repeat">repeat 스타일 이미지 테두리</p>
+        <p id="stretch">stretch 스타일 이미지 테두리</p>
+    </body>
+    </html>
